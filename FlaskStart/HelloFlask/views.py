@@ -10,5 +10,7 @@ def home():
     
     return render_template(
         "index.html",
-        content = "<strong>Hello, Flask!</strong> on " + formatted_now)
+        content = "<strong>Hello, Flask!</strong> on " + formatted_now,
+        message = "This is message")
+        
 
